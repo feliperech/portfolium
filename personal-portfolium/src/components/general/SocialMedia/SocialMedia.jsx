@@ -28,7 +28,6 @@ function SocialMedia() {
       >
         <img src={github} alt="Github" />
       </a>
-
     </div>
   )
 }

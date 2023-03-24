@@ -1,11 +1,11 @@
 .main-content {
-  background-color: rgb(27, 34, 72);
-  color: aliceblue;
+  background-color: #7aa5c4;
+  color: #e6dedc;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  
+  padding: 4px 0%
 }
 .link-contents {
   display: flex;
@@ -16,8 +16,7 @@
 }
 
 a:-webkit-any-link { /* Referente ao link */
-  color: beige;
+  color: #e6dedc;
   cursor: pointer;
   text-decoration: none;
 }
-

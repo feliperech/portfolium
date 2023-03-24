@@ -1,12 +1,13 @@
 import React from 'react'
+import SocialMedia from '../../general/SocialMedia/SocialMedia'
 import { Link } from 'react-router-dom'
 import './HeaderPT.css'
-import SocialMedia from '../../general/SocialMedia/SocialMedia'
+import logo from '../../../images/logo.png'
 function HeaderPT() {
   return (
     <div>
       <header className='main-content'>
-        <h1> Felipe Gerber</h1>
+        <img src={logo} alt="logo" width="100px"/>
         <div className='link-contents'>
           <Link className="link-element" to="/about-PT">Sobre</Link>
           <Link to="/portfolio-PT">Portforlio</Link>
