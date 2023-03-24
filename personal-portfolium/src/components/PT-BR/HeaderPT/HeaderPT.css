@@ -1,0 +1,22 @@
+.main-content {
+  background-color: #7aa5c4;
+  color: #e6dedc;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4px 0%
+}
+.link-contents {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 40%;
+  font-size: 26px;
+}
+
+a:-webkit-any-link { /* Referente ao link */
+  color: #e6dedc;
+  cursor: pointer;
+  text-decoration: none;
+}
