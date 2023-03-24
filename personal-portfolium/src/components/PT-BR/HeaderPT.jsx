@@ -8,6 +8,7 @@ function HeaderPT() {
         <Link to="/about-PT">Sobre</Link>
         <Link to="/portfolio-PT">Portforlio</Link>
         <Link to="/contact-PT">Contato</Link>
+        <Link to="/knowledge-PT">Conhecimentos</Link>
       </div>
     </div>
   )

@@ -4,6 +4,7 @@ import HomePT from './pages/PT-BR/HomePT';
 import AboutPT from './pages/PT-BR/AboutPT';
 import ContactPT from './pages/PT-BR/ContactPT'
 import Portfolio from './pages/PT-BR/Portfolio';
+import KnowlegesPT from './pages/PT-BR/KnowledgePT';
 
 function App() {
   return (
@@ -28,6 +29,11 @@ function App() {
           exact
           path={'/portfolio-PT'}
           component={Portfolio}
+        />
+         <Route
+          exact
+          path={'/knowledge-PT'}
+          component={KnowlegesPT}
         />
       </Switch>
     </div>
