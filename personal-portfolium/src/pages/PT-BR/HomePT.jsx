@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderPT from '../../components/PT-BR/HeaderPT'
+import HeaderPT from '../../components/PT-BR/HeaderPT/HeaderPT'
 
 function HomePT() {
   return (
