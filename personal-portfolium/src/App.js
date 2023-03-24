@@ -5,6 +5,7 @@ import AboutPT from './pages/PT-BR/AboutPT';
 import ContactPT from './pages/PT-BR/ContactPT'
 import Portfolio from './pages/PT-BR/Portfolio';
 import KnowlegesPT from './pages/PT-BR/KnowledgePT';
+import './App.css'
 
 function App() {
   return (
