@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+.story-telling{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.content-storytelling{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+p{
+  font-family: 'Pompiere', cursive;
+  font-size: 220%;
+  width: 33.2%;
+  color: #565661;
+}
+
+.title-element {
+  font-family: 'Pompiere', cursive;
+  color: #565661;
+  margin-top: 5%;
+  font-size: 500%;
+  text-align: center;
+}

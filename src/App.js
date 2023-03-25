@@ -1,10 +1,10 @@
 import './App.css';
 import {Switch, Route} from 'react-router-dom';
 import HomePT from './pages/PT-BR/HomePT';
-import AboutPT from './pages/PT-BR/AboutPT';
-import ContactPT from './pages/PT-BR/ContactPT'
+import AboutPT from './pages/PT-BR/About/AboutPT';
+import Contact from './pages/PT-BR/Contact/Contact'
 import Portfolio from './pages/PT-BR/Portfolio';
-import KnowlegesPT from './pages/PT-BR/KnowledgePT';
+import KnowlegesPT from './pages/PT-BR/KnowledgePT/KnowledgePT';
 import './App.css'
 
 function App() {
@@ -16,6 +16,11 @@ function App() {
           path={'/'}
           component={HomePT}
         />
+        <Route 
+          exact
+          path={'/home'}
+          component={HomePT}
+        />
         <Route
           exact
           path={'/about-PT'}
@@ -24,7 +29,7 @@ function App() {
         <Route
           exact
           path={'/contact-PT'}
-          component={ContactPT }
+          component={Contact }
         />
         <Route
           exact
