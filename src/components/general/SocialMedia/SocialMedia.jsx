@@ -11,22 +11,22 @@ function SocialMedia() {
       <a
        href="https://www.linkedin.com/in/felipegerberdev/"
       >
-        <img src={linkedin} alt="Linkedin" />
+        <img src={linkedin} alt="Linkedin" width="100px" />
       </a>
       <a
        href="https://www.instagram.com/felipe.erg/"
       >
-        <img src={instagram} alt="Instagram" />
+        <img src={instagram} alt="Instagram" width="100px" />
       </a>
       <a
        href="https://www.youtube.com/@CircuitandoEL"
       >
-        <img src={youtube} alt="Youtube" />
+        <img src={youtube} alt="Youtube" width="100px" />
       </a>
       <a
        href="https://github.com/feliperech"
       >
-        <img src={github} alt="Github" />
+        <img src={github} alt="Github" width="100px" />
       </a>
     </div>
   )

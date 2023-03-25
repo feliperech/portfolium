@@ -2,8 +2,8 @@
 
 
 .main-content {
-  background-color: #4a494b;
-  color: #e6dedc;
+  background-color: #54899d;
+  color: #f2f2f2;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
@@ -19,9 +19,18 @@
 }
 
 a:-webkit-any-link { /* Referente ao link */
-  color: #e6dedc;
+  color: #f2f2f2;
   cursor: pointer;
   font-family: 'Pompiere', cursive;
-  font-size: xx-large;
+  font-size: 170%;
   text-decoration: none;
+}
+
+.button-header{
+  background-color: #54899d;
+  box-shadow: none;
+  border: none;
+}
+.button-header:hover{
+  cursor: pointer;
 }
