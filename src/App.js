@@ -4,7 +4,7 @@ import HomePT from './pages/PT-BR/HomePT';
 import AboutPT from './pages/PT-BR/About/AboutPT';
 import Contact from './pages/PT-BR/Contact/Contact'
 import Portfolio from './pages/PT-BR/Portfolio';
-import KnowlegesPT from './pages/PT-BR/KnowledgePT';
+import KnowlegesPT from './pages/PT-BR/KnowledgePT/KnowledgePT';
 import './App.css'
 
 function App() {
